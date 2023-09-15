@@ -28,7 +28,6 @@ pipeline
                 echo 'deploying the application'
                 sh '''
                 gcloud version
-                python3 TestAdd.py
                 '''
             }
         }
