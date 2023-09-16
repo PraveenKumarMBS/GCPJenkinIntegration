@@ -38,6 +38,7 @@ pipeline
                     gcloud auth activate-service-account --key-file="$GCLOUD_CREDS"
                     gcloud compute zones list
                     gcloud config get-value project
+                    gcloud app deploy
                     '''
                 }
             }
