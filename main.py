@@ -29,7 +29,7 @@ def hello():
     Returns:
         A string with the words 'Hello World!'.
     """
-    return "Hello World Jenkin_GCP Integration_thru jenkins checkout!"
+    return "Hello World Jenkin_GCP Integration_thru jenkins checkout and deploy!"
 
 
 if __name__ == "__main__":
