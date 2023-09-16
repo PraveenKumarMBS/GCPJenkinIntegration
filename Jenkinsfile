@@ -28,6 +28,7 @@ pipeline
                 echo 'deploying the application'
                 sh '''
                 gcloud version
+                gcloud app deploy
                 '''
             }
         }
